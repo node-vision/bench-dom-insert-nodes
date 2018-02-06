@@ -1,0 +1,15 @@
+{
+  "name": "bench-dom-insert-nodes",
+  "version": "1.0.0",
+  "description": "Benchmark performance of different methods to insert multiple HTML DOM nodes: appendChild, DocumentFragments, insertAdjacentHTML and innerHTML.",
+  "author": "stepan@nodevision.com.au",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --public-url ./",
+    "start": "http-server dist"
+  },
+  "dependencies": {
+    "benchmark": "^2.1.4"
+  }
+}
